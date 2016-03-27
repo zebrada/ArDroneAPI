@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D47856D1CA76C1200FBFA20 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D47856C1CA76C1200FBFA20 /* StartViewController.swift */; };
+		6D47856F1CA76C7300FBFA20 /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D47856E1CA76C7300FBFA20 /* InSocket.swift */; };
+		6D4785711CA76CAD00FBFA20 /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4785701CA76CAD00FBFA20 /* OutSocket.swift */; };
 		6DE020061CA7032D007ED1C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE020051CA7032D007ED1C8 /* AppDelegate.swift */; };
 		6DE020081CA7032D007ED1C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE020071CA7032D007ED1C8 /* ViewController.swift */; };
 		6DE0200B1CA7032D007ED1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE020091CA7032D007ED1C8 /* Main.storyboard */; };
 		6DE0200D1CA7032D007ED1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */; };
 		6DE020101CA7032D007ED1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0200E1CA7032D007ED1C8 /* LaunchScreen.storyboard */; };
+		8FADA6D8E6E5FDBFF946C3A1 /* Pods_ARDroneAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB77C395ADF6D1A1FD4452F7 /* Pods_ARDroneAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI.release.xcconfig"; sourceTree = "<group>"; };
+		6D47856C1CA76C1200FBFA20 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6D47856E1CA76C7300FBFA20 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
+		6D4785701CA76CAD00FBFA20 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
 		6DE020021CA7032D007ED1C8 /* ARDroneAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDroneAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE020051CA7032D007ED1C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE020071CA7032D007ED1C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE0200F1CA7032D007ED1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE020111CA7032D007ED1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA66FFDAE62FB1B04619DFF /* Pods-ARDroneAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		BB77C395ADF6D1A1FD4452F7 /* Pods_ARDroneAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDroneAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FADA6D8E6E5FDBFF946C3A1 /* Pods_ARDroneAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BD6D647852540826D259B1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB77C395ADF6D1A1FD4452F7 /* Pods_ARDroneAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DE01FF91CA7032D007ED1C8 = {
 			isa = PBXGroup;
 			children = (
 				6DE020041CA7032D007ED1C8 /* ARDroneAPI */,
 				6DE020031CA7032D007ED1C8 /* Products */,
+				8857ACE866BBE922EEE9254A /* Pods */,
+				3BD6D647852540826D259B1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +81,20 @@
 				6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */,
 				6DE0200E1CA7032D007ED1C8 /* LaunchScreen.storyboard */,
 				6DE020111CA7032D007ED1C8 /* Info.plist */,
+				6D47856C1CA76C1200FBFA20 /* StartViewController.swift */,
+				6D47856E1CA76C7300FBFA20 /* InSocket.swift */,
+				6D4785701CA76CAD00FBFA20 /* OutSocket.swift */,
 			);
 			path = ARDroneAPI;
+			sourceTree = "<group>";
+		};
+		8857ACE866BBE922EEE9254A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FA66FFDAE62FB1B04619DFF /* Pods-ARDroneAPI.debug.xcconfig */,
+				04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE020141CA7032D007ED1C8 /* Build configuration list for PBXNativeTarget "ARDroneAPI" */;
 			buildPhases = (
+				CFA27CD7EE775039E28EC3DF /* Check Pods Manifest.lock */,
 				6DE01FFE1CA7032D007ED1C8 /* Sources */,
 				6DE01FFF1CA7032D007ED1C8 /* Frameworks */,
 				6DE020001CA7032D007ED1C8 /* Resources */,
+				C1F708334723532EE5F2349A /* Embed Pods Frameworks */,
+				AFEA08A5A27B6AE584FBFA1F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +166,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AFEA08A5A27B6AE584FBFA1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F708334723532EE5F2349A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA27CD7EE775039E28EC3DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DE01FFE1CA7032D007ED1C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6DE020081CA7032D007ED1C8 /* ViewController.swift in Sources */,
+				6D47856F1CA76C7300FBFA20 /* InSocket.swift in Sources */,
 				6DE020061CA7032D007ED1C8 /* AppDelegate.swift in Sources */,
+				6D4785711CA76CAD00FBFA20 /* OutSocket.swift in Sources */,
+				6D47856D1CA76C1200FBFA20 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +332,11 @@
 		};
 		6DE020151CA7032D007ED1C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA66FFDAE62FB1B04619DFF /* Pods-ARDroneAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARDroneAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PSAR.ARDroneAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -256,9 +345,11 @@
 		};
 		6DE020161CA7032D007ED1C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARDroneAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PSAR.ARDroneAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +375,7 @@
 				6DE020161CA7032D007ED1C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
