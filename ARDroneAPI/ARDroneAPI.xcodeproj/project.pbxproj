@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI.release.xcconfig"; sourceTree = "<group>"; };
-		6D47856C1CA76C1200FBFA20 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6D47856C1CA76C1200FBFA20 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StartViewController.swift; sourceTree = "<group>"; };
 		6D47856E1CA76C7300FBFA20 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
 		6D4785701CA76CAD00FBFA20 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
 		6DE020021CA7032D007ED1C8 /* ARDroneAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDroneAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };

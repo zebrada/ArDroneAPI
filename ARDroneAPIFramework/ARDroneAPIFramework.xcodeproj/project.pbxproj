@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1308F4341CAB329000B5C5C1 /* ARDroneAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1308F4331CAB329000B5C5C1 /* ARDroneAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1308F43B1CAB329000B5C5C1 /* ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1308F4301CAB329000B5C5C1 /* ARDroneAPIFramework.framework */; };
+		1308F4401CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */; };
+		1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44A1CAB351C00B5C5C1 /* InSocket.swift */; };
+		1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1308F43C1CAB329000B5C5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1308F4271CAB328F00B5C5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1308F42F1CAB329000B5C5C1;
+			remoteInfo = ARDroneAPIFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1308F4301CAB329000B5C5C1 /* ARDroneAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARDroneAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1308F4331CAB329000B5C5C1 /* ARDroneAPIFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARDroneAPIFramework.h; sourceTree = "<group>"; };
+		1308F4351CAB329000B5C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1308F43A1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDroneAPIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDroneAPIFrameworkTests.swift; sourceTree = "<group>"; };
+		1308F4411CAB329000B5C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1308F44A1CAB351C00B5C5C1 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
+		1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1308F42C1CAB329000B5C5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308F4371CAB329000B5C5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308F43B1CAB329000B5C5C1 /* ARDroneAPIFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1308F4261CAB328F00B5C5C1 = {
+			isa = PBXGroup;
+			children = (
+				1308F4321CAB329000B5C5C1 /* ARDroneAPIFramework */,
+				1308F43E1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests */,
+				1308F4311CAB329000B5C5C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1308F4311CAB329000B5C5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1308F4301CAB329000B5C5C1 /* ARDroneAPIFramework.framework */,
+				1308F43A1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1308F4321CAB329000B5C5C1 /* ARDroneAPIFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1308F4331CAB329000B5C5C1 /* ARDroneAPIFramework.h */,
+				1308F4351CAB329000B5C5C1 /* Info.plist */,
+				1308F44A1CAB351C00B5C5C1 /* InSocket.swift */,
+				1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */,
+			);
+			path = ARDroneAPIFramework;
+			sourceTree = "<group>";
+		};
+		1308F43E1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */,
+				1308F4411CAB329000B5C5C1 /* Info.plist */,
+			);
+			path = ARDroneAPIFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1308F42D1CAB329000B5C5C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308F4341CAB329000B5C5C1 /* ARDroneAPIFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1308F42F1CAB329000B5C5C1 /* ARDroneAPIFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1308F4441CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFramework" */;
+			buildPhases = (
+				1308F42B1CAB329000B5C5C1 /* Sources */,
+				1308F42C1CAB329000B5C5C1 /* Frameworks */,
+				1308F42D1CAB329000B5C5C1 /* Headers */,
+				1308F42E1CAB329000B5C5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDroneAPIFramework;
+			productName = ARDroneAPIFramework;
+			productReference = 1308F4301CAB329000B5C5C1 /* ARDroneAPIFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1308F4391CAB329000B5C5C1 /* ARDroneAPIFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1308F4471CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFrameworkTests" */;
+			buildPhases = (
+				1308F4361CAB329000B5C5C1 /* Sources */,
+				1308F4371CAB329000B5C5C1 /* Frameworks */,
+				1308F4381CAB329000B5C5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1308F43D1CAB329000B5C5C1 /* PBXTargetDependency */,
+			);
+			name = ARDroneAPIFrameworkTests;
+			productName = ARDroneAPIFrameworkTests;
+			productReference = 1308F43A1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1308F4271CAB328F00B5C5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mickael Goualard";
+				TargetAttributes = {
+					1308F42F1CAB329000B5C5C1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1308F4391CAB329000B5C5C1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1308F42A1CAB328F00B5C5C1 /* Build configuration list for PBXProject "ARDroneAPIFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1308F4261CAB328F00B5C5C1;
+			productRefGroup = 1308F4311CAB329000B5C5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1308F42F1CAB329000B5C5C1 /* ARDroneAPIFramework */,
+				1308F4391CAB329000B5C5C1 /* ARDroneAPIFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1308F42E1CAB329000B5C5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308F4381CAB329000B5C5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1308F42B1CAB329000B5C5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */,
+				1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308F4361CAB329000B5C5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308F4401CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1308F43D1CAB329000B5C5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1308F42F1CAB329000B5C5C1 /* ARDroneAPIFramework */;
+			targetProxy = 1308F43C1CAB329000B5C5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1308F4421CAB329000B5C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1308F4431CAB329000B5C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1308F4451CAB329000B5C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ARDroneAPIFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zebrada.ARDroneAPIFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1308F4461CAB329000B5C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ARDroneAPIFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zebrada.ARDroneAPIFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1308F4481CAB329000B5C5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARDroneAPIFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zebrada.ARDroneAPIFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1308F4491CAB329000B5C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARDroneAPIFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zebrada.ARDroneAPIFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1308F42A1CAB328F00B5C5C1 /* Build configuration list for PBXProject "ARDroneAPIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1308F4421CAB329000B5C5C1 /* Debug */,
+				1308F4431CAB329000B5C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1308F4441CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1308F4451CAB329000B5C5C1 /* Debug */,
+				1308F4461CAB329000B5C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1308F4471CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1308F4481CAB329000B5C5C1 /* Debug */,
+				1308F4491CAB329000B5C5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1308F4271CAB328F00B5C5C1 /* Project object */;
+}
