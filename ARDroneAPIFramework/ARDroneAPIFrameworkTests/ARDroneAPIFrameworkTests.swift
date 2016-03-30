@@ -9,7 +9,11 @@
 import XCTest
 @testable import ARDroneAPIFramework
 
+import CocoaAsyncSocket
+
 class ARDroneAPIFrameworkTests: XCTestCase {
+    
+    var outSocket : OutSocket!
     
     override func setUp() {
         super.setUp()
@@ -22,8 +26,8 @@ class ARDroneAPIFrameworkTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        outSocket = OutSocket()
+        
     }
     
     func testPerformanceExample() {

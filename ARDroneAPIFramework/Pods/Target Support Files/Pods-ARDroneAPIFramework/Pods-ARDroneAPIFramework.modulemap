@@ -1,0 +1,6 @@
+framework module Pods_ARDroneAPIFramework {
+  umbrella header "Pods-ARDroneAPIFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

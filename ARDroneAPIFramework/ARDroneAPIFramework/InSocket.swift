@@ -10,6 +10,7 @@ import UIKit
 import CocoaAsyncSocket
 
 class InSocket: NSObject, GCDAsyncUdpSocketDelegate {
+    
     let IP = "255.255.255.255"
     let PORT:UInt16 = 5554
     var socket:GCDAsyncUdpSocket!
@@ -24,11 +25,12 @@ class InSocket: NSObject, GCDAsyncUdpSocketDelegate {
         socket = GCDAsyncUdpSocket(delegate: self, delegateQueue: dispatch_get_main_queue())
         try! socket.bindToPort(PORT)
         try! socket.enableBroadcast(true)
-        //try! socket.joinMulticastGroup(IP)
+        try! socket.joinMulticastGroup(IP)
         try! socket.beginReceiving()
     }
     
     func udpSocket(sock: GCDAsyncUdpSocket!, didReceiveData data: NSData!, fromAddress address: NSData!,      withFilterContext filterContext: AnyObject!) {
         print("incoming message: \(data)");
     }
+    
 }

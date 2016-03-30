@@ -12,6 +12,9 @@
 		1308F4401CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */; };
 		1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44A1CAB351C00B5C5C1 /* InSocket.swift */; };
 		1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */; };
+		13EE49331CAC3BC800573CEA /* DroneInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EE49321CAC3BC800573CEA /* DroneInstructions.swift */; };
+		3A9640D59723C98151274C89 /* Pods_ARDroneAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE4B1CEC2320BB3F5DC57C0 /* Pods_ARDroneAPIFrameworkTests.framework */; };
+		EEE831F3C4AAB880AE91596B /* Pods_ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,13 @@
 		1308F4411CAB329000B5C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1308F44A1CAB351C00B5C5C1 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
 		1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
+		13EE49321CAC3BC800573CEA /* DroneInstructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneInstructions.swift; sourceTree = "<group>"; };
+		33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDroneAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4660530AF633ED3F2D39F4C3 /* Pods-ARDroneAPIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFramework/Pods-ARDroneAPIFramework.release.xcconfig"; sourceTree = "<group>"; };
+		5EB8CFCD75AF2A0F8285914B /* Pods-ARDroneAPIFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		689961AE9B784511F8E84393 /* Pods-ARDroneAPIFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		88DBB411EDF582ECC92FD787 /* Pods-ARDroneAPIFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFramework/Pods-ARDroneAPIFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE4B1CEC2320BB3F5DC57C0 /* Pods_ARDroneAPIFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDroneAPIFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE831F3C4AAB880AE91596B /* Pods_ARDroneAPIFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1308F43B1CAB329000B5C5C1 /* ARDroneAPIFramework.framework in Frameworks */,
+				3A9640D59723C98151274C89 /* Pods_ARDroneAPIFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +72,8 @@
 				1308F4321CAB329000B5C5C1 /* ARDroneAPIFramework */,
 				1308F43E1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests */,
 				1308F4311CAB329000B5C5C1 /* Products */,
+				ED03E7431279F835BB6535B8 /* Pods */,
+				38C6D8520F00C222772F8897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +93,7 @@
 				1308F4351CAB329000B5C5C1 /* Info.plist */,
 				1308F44A1CAB351C00B5C5C1 /* InSocket.swift */,
 				1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */,
+				13EE49321CAC3BC800573CEA /* DroneInstructions.swift */,
 			);
 			path = ARDroneAPIFramework;
 			sourceTree = "<group>";
@@ -90,6 +105,26 @@
 				1308F4411CAB329000B5C5C1 /* Info.plist */,
 			);
 			path = ARDroneAPIFrameworkTests;
+			sourceTree = "<group>";
+		};
+		38C6D8520F00C222772F8897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */,
+				9DE4B1CEC2320BB3F5DC57C0 /* Pods_ARDroneAPIFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED03E7431279F835BB6535B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DBB411EDF582ECC92FD787 /* Pods-ARDroneAPIFramework.debug.xcconfig */,
+				4660530AF633ED3F2D39F4C3 /* Pods-ARDroneAPIFramework.release.xcconfig */,
+				5EB8CFCD75AF2A0F8285914B /* Pods-ARDroneAPIFrameworkTests.debug.xcconfig */,
+				689961AE9B784511F8E84393 /* Pods-ARDroneAPIFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1308F4441CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFramework" */;
 			buildPhases = (
+				37C818A9AF72C81AAAD2EDF8 /* Check Pods Manifest.lock */,
 				1308F42B1CAB329000B5C5C1 /* Sources */,
 				1308F42C1CAB329000B5C5C1 /* Frameworks */,
 				1308F42D1CAB329000B5C5C1 /* Headers */,
 				1308F42E1CAB329000B5C5C1 /* Resources */,
+				8C139ED15763885C55BCFFB5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1308F4471CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFrameworkTests" */;
 			buildPhases = (
+				CE217376CB85058990DF87C5 /* Check Pods Manifest.lock */,
 				1308F4361CAB329000B5C5C1 /* Sources */,
 				1308F4371CAB329000B5C5C1 /* Frameworks */,
 				1308F4381CAB329000B5C5C1 /* Resources */,
+				D2C4B18076773A7F19AABEF1 /* Embed Pods Frameworks */,
+				AD007E94146C158E4FE78404 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,12 +235,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37C818A9AF72C81AAAD2EDF8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C139ED15763885C55BCFFB5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARDroneAPIFramework/Pods-ARDroneAPIFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD007E94146C158E4FE78404 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE217376CB85058990DF87C5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C4B18076773A7F19AABEF1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1308F42B1CAB329000B5C5C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */,
+				13EE49331CAC3BC800573CEA /* DroneInstructions.swift in Sources */,
 				1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +436,7 @@
 		};
 		1308F4451CAB329000B5C5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DBB411EDF582ECC92FD787 /* Pods-ARDroneAPIFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -335,6 +455,7 @@
 		};
 		1308F4461CAB329000B5C5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4660530AF633ED3F2D39F4C3 /* Pods-ARDroneAPIFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -352,6 +473,7 @@
 		};
 		1308F4481CAB329000B5C5C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB8CFCD75AF2A0F8285914B /* Pods-ARDroneAPIFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ARDroneAPIFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -362,6 +484,7 @@
 		};
 		1308F4491CAB329000B5C5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689961AE9B784511F8E84393 /* Pods-ARDroneAPIFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ARDroneAPIFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -389,6 +512,7 @@
 				1308F4461CAB329000B5C5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1308F4471CAB329000B5C5C1 /* Build configuration list for PBXNativeTarget "ARDroneAPIFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +521,7 @@
 				1308F4491CAB329000B5C5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
