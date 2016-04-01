@@ -12,7 +12,7 @@
 		1308F4401CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */; };
 		1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44A1CAB351C00B5C5C1 /* InSocket.swift */; };
 		1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */; };
-		13EE49331CAC3BC800573CEA /* DroneInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EE49321CAC3BC800573CEA /* DroneInstructions.swift */; };
+		13EE49331CAC3BC800573CEA /* ARDrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EE49321CAC3BC800573CEA /* ARDrone.swift */; };
 		3A9640D59723C98151274C89 /* Pods_ARDroneAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE4B1CEC2320BB3F5DC57C0 /* Pods_ARDroneAPIFrameworkTests.framework */; };
 		EEE831F3C4AAB880AE91596B /* Pods_ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 		1308F4411CAB329000B5C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1308F44A1CAB351C00B5C5C1 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
 		1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
-		13EE49321CAC3BC800573CEA /* DroneInstructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneInstructions.swift; sourceTree = "<group>"; };
+		13EE49321CAC3BC800573CEA /* ARDrone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDrone.swift; sourceTree = "<group>"; };
 		33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDroneAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4660530AF633ED3F2D39F4C3 /* Pods-ARDroneAPIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFramework/Pods-ARDroneAPIFramework.release.xcconfig"; sourceTree = "<group>"; };
 		5EB8CFCD75AF2A0F8285914B /* Pods-ARDroneAPIFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				1308F4351CAB329000B5C5C1 /* Info.plist */,
 				1308F44A1CAB351C00B5C5C1 /* InSocket.swift */,
 				1308F44C1CAB36CB00B5C5C1 /* OutSocket.swift */,
-				13EE49321CAC3BC800573CEA /* DroneInstructions.swift */,
+				13EE49321CAC3BC800573CEA /* ARDrone.swift */,
 			);
 			path = ARDroneAPIFramework;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1308F44B1CAB351C00B5C5C1 /* InSocket.swift in Sources */,
-				13EE49331CAC3BC800573CEA /* DroneInstructions.swift in Sources */,
+				13EE49331CAC3BC800573CEA /* ARDrone.swift in Sources */,
 				1308F44D1CAB36CB00B5C5C1 /* OutSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

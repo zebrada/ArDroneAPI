@@ -11,12 +11,19 @@ import CocoaAsyncSocket
 
 class OutSocket: NSObject, GCDAsyncUdpSocketDelegate {
     
-    let IP = "192.168.200.22"
-    let PORT:UInt16 = 5556
+    var IP = "192.168.200.22"
+    var PORT:UInt16 = 5556
     var socket:GCDAsyncUdpSocket!
     
     override init(){
         super.init()
+        setupConnection()
+    }
+    
+    init(ipAddr: String, port: UInt16) {
+        super.init()
+        self.IP = ipAddr
+        self.PORT = port
         setupConnection()
     }
     
