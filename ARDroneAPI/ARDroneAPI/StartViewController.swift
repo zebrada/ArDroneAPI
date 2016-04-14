@@ -10,13 +10,17 @@ import UIKit
 import CocoaAsyncSocket
 
 class StartViewController: UIViewController {
+    
     var inSocket : InSocket!
     var outSocket : OutSocket!
+    var commandQueue: CommandQueue!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        commandQueue = CommandQueue()
         inSocket = InSocket()
-        outSocket = OutSocket()
+        outSocket = OutSocket(cmdQueue: commandQueue)
         outSocket.send("This is a message!")
         // Do any additional setup after loading the view.
     }
@@ -27,6 +31,9 @@ class StartViewController: UIViewController {
     }
     
 
+    @IBAction func fafaf(sender: AnyObject) {
+        inSocket.send("message")
+    }
     /*
     // MARK: - Navigation
 
@@ -37,4 +44,28 @@ class StartViewController: UIViewController {
     }
     */
 
+    @IBAction func clickDecollage(sender: UIButton) {
+        
+        commandQueue.add(TakeOffCommand())
+    }
+    
+    @IBAction func clickAtterrissage(sender: UIButton) {
+        
+        commandQueue.add(LandCommand())
+    }
+    
+    @IBAction func gaucheButtonDown(sender: AnyObject) {
+        
+       for var i in 0 ... 20{
+            commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: -0.3))
+            usleep(30000)
+        }
+    }
+    
+    @IBAction func droiteButtonDown(sender: AnyObject) {
+        for var i in 0 ... 20{
+            commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: 0.3))
+            usleep(30000)
+        }
+    }
 }
