@@ -55,17 +55,10 @@ class StartViewController: UIViewController {
     }
     
     @IBAction func gaucheButtonDown(sender: AnyObject) {
-        
-       for var i in 0 ... 20{
-            commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: -0.3))
-            usleep(30000)
-        }
+        commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: -0.3))
     }
     
     @IBAction func droiteButtonDown(sender: AnyObject) {
-        for var i in 0 ... 20{
-            commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: 0.3))
-            usleep(30000)
-        }
+        commandQueue.add(PCMDCommand(hover: false, combined_yaw_enabled: false, left_right_tilt: 0, front_back_tilt: 0, vertical_speed: 0, angular_speed: 0.3))
     }
 }
