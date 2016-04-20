@@ -7,16 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13A0A3141CC6819800F576F7 /* ATCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0A30F1CC6819800F576F7 /* ATCommand.swift */; };
-		13A0A3151CC6819800F576F7 /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0A3101CC6819800F576F7 /* CommandQueue.swift */; };
-		13A0A3161CC6819800F576F7 /* LandCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0A3111CC6819800F576F7 /* LandCommand.swift */; };
-		13A0A3171CC6819800F576F7 /* PCMDCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0A3121CC6819800F576F7 /* PCMDCommand.swift */; };
-		13A0A3181CC6819800F576F7 /* TakeOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0A3131CC6819800F576F7 /* TakeOffCommand.swift */; };
+		13EB8D8D1CC7DE4F0041714F /* ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EB8D8C1CC7DE4F0041714F /* ARDroneAPIFramework.framework */; };
+		13EB8D8F1CC7DFEC0041714F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D8E1CC7DFEC0041714F /* AppDelegate.swift */; };
 		6D47856D1CA76C1200FBFA20 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D47856C1CA76C1200FBFA20 /* StartViewController.swift */; };
-		6D47856F1CA76C7300FBFA20 /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D47856E1CA76C7300FBFA20 /* InSocket.swift */; };
-		6D4785711CA76CAD00FBFA20 /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4785701CA76CAD00FBFA20 /* OutSocket.swift */; };
-		6DE020061CA7032D007ED1C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE020051CA7032D007ED1C8 /* AppDelegate.swift */; };
-		6DE020081CA7032D007ED1C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE020071CA7032D007ED1C8 /* ViewController.swift */; };
 		6DE0200B1CA7032D007ED1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE020091CA7032D007ED1C8 /* Main.storyboard */; };
 		6DE0200D1CA7032D007ED1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */; };
 		6DE020101CA7032D007ED1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE0200E1CA7032D007ED1C8 /* LaunchScreen.storyboard */; };
@@ -25,17 +18,10 @@
 
 /* Begin PBXFileReference section */
 		04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPI/Pods-ARDroneAPI.release.xcconfig"; sourceTree = "<group>"; };
-		13A0A30F1CC6819800F576F7 /* ATCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCommand.swift; sourceTree = "<group>"; };
-		13A0A3101CC6819800F576F7 /* CommandQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
-		13A0A3111CC6819800F576F7 /* LandCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandCommand.swift; sourceTree = "<group>"; };
-		13A0A3121CC6819800F576F7 /* PCMDCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCMDCommand.swift; sourceTree = "<group>"; };
-		13A0A3131CC6819800F576F7 /* TakeOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOffCommand.swift; sourceTree = "<group>"; };
+		13EB8D8C1CC7DE4F0041714F /* ARDroneAPIFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ARDroneAPIFramework.framework; sourceTree = "<group>"; };
+		13EB8D8E1CC7DFEC0041714F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D47856C1CA76C1200FBFA20 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = StartViewController.swift; sourceTree = "<group>"; };
-		6D47856E1CA76C7300FBFA20 /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
-		6D4785701CA76CAD00FBFA20 /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
 		6DE020021CA7032D007ED1C8 /* ARDroneAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDroneAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE020051CA7032D007ED1C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DE020071CA7032D007ED1C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DE0200A1CA7032D007ED1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE0200F1CA7032D007ED1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EB8D8D1CC7DE4F0041714F /* ARDroneAPIFramework.framework in Frameworks */,
 				8FADA6D8E6E5FDBFF946C3A1 /* Pods_ARDroneAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +46,7 @@
 		3BD6D647852540826D259B1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13EB8D8C1CC7DE4F0041714F /* ARDroneAPIFramework.framework */,
 				BB77C395ADF6D1A1FD4452F7 /* Pods_ARDroneAPI.framework */,
 			);
 			name = Frameworks;
@@ -85,20 +73,12 @@
 		6DE020041CA7032D007ED1C8 /* ARDroneAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6DE020051CA7032D007ED1C8 /* AppDelegate.swift */,
-				6DE020071CA7032D007ED1C8 /* ViewController.swift */,
+				13EB8D8E1CC7DFEC0041714F /* AppDelegate.swift */,
 				6DE020091CA7032D007ED1C8 /* Main.storyboard */,
-				13A0A30F1CC6819800F576F7 /* ATCommand.swift */,
-				13A0A3101CC6819800F576F7 /* CommandQueue.swift */,
-				13A0A3111CC6819800F576F7 /* LandCommand.swift */,
-				13A0A3121CC6819800F576F7 /* PCMDCommand.swift */,
-				13A0A3131CC6819800F576F7 /* TakeOffCommand.swift */,
 				6DE0200C1CA7032D007ED1C8 /* Assets.xcassets */,
 				6DE0200E1CA7032D007ED1C8 /* LaunchScreen.storyboard */,
 				6DE020111CA7032D007ED1C8 /* Info.plist */,
 				6D47856C1CA76C1200FBFA20 /* StartViewController.swift */,
-				6D47856E1CA76C7300FBFA20 /* InSocket.swift */,
-				6D4785701CA76CAD00FBFA20 /* OutSocket.swift */,
 			);
 			path = ARDroneAPI;
 			sourceTree = "<group>";
@@ -234,15 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A0A3181CC6819800F576F7 /* TakeOffCommand.swift in Sources */,
-				6DE020081CA7032D007ED1C8 /* ViewController.swift in Sources */,
-				13A0A3151CC6819800F576F7 /* CommandQueue.swift in Sources */,
-				13A0A3161CC6819800F576F7 /* LandCommand.swift in Sources */,
-				6D47856F1CA76C7300FBFA20 /* InSocket.swift in Sources */,
-				13A0A3141CC6819800F576F7 /* ATCommand.swift in Sources */,
-				6DE020061CA7032D007ED1C8 /* AppDelegate.swift in Sources */,
-				13A0A3171CC6819800F576F7 /* PCMDCommand.swift in Sources */,
-				6D4785711CA76CAD00FBFA20 /* OutSocket.swift in Sources */,
+				13EB8D8F1CC7DFEC0041714F /* AppDelegate.swift in Sources */,
 				6D47856D1CA76C1200FBFA20 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +327,10 @@
 			baseConfigurationReference = 9FA66FFDAE62FB1B04619DFF /* Pods-ARDroneAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ARDroneAPI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -368,6 +344,10 @@
 			baseConfigurationReference = 04FEE978478296B60491190A /* Pods-ARDroneAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ARDroneAPI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,10 @@
+framework module ARDroneAPIFramework {
+  umbrella header "ARDroneAPIFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ARDroneAPIFramework.Swift {
+    header "ARDroneAPIFramework-Swift.h"
+}
