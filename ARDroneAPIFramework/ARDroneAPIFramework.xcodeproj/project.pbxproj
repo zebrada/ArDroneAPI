@@ -10,29 +10,29 @@
 		1308F4341CAB329000B5C5C1 /* ARDroneAPIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1308F4331CAB329000B5C5C1 /* ARDroneAPIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1308F43B1CAB329000B5C5C1 /* ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1308F4301CAB329000B5C5C1 /* ARDroneAPIFramework.framework */; };
 		1308F4401CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */; };
-		13EB8CDD1CC7C5680041714F /* ARDrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CD51CC7C5680041714F /* ARDrone.swift */; };
-		13EB8CDE1CC7C5680041714F /* ARDroneNavDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CD61CC7C5680041714F /* ARDroneNavDataDecoder.swift */; };
-		13EB8CDF1CC7C5680041714F /* ATCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CD71CC7C5680041714F /* ATCommand.swift */; };
-		13EB8CE01CC7C5680041714F /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CD81CC7C5680041714F /* CommandQueue.swift */; };
-		13EB8CE11CC7C5680041714F /* ConfigCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CD91CC7C5680041714F /* ConfigCommand.swift */; };
-		13EB8CE21CC7C5680041714F /* ControlAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CDA1CC7C5680041714F /* ControlAlgorithm.swift */; };
-		13EB8CE31CC7C5680041714F /* CtrlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CDB1CC7C5680041714F /* CtrlState.swift */; };
-		13EB8CE41CC7C5680041714F /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CDC1CC7C5680041714F /* DataDecoder.swift */; };
-		13EB8CF41CC7C5A60041714F /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CE51CC7C5A60041714F /* Dimension.swift */; };
-		13EB8CF51CC7C5A60041714F /* EmergencyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CE61CC7C5A60041714F /* EmergencyCommand.swift */; };
-		13EB8CF61CC7C5A60041714F /* FlyingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CE71CC7C5A60041714F /* FlyingState.swift */; };
-		13EB8CF71CC7C5A60041714F /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CE81CC7C5A60041714F /* InSocket.swift */; };
-		13EB8CF81CC7C5A60041714F /* LandCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CE91CC7C5A60041714F /* LandCommand.swift */; };
-		13EB8CF91CC7C5A60041714F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CEA1CC7C5A60041714F /* Mode.swift */; };
-		13EB8CFA1CC7C5A60041714F /* NavData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CEB1CC7C5A60041714F /* NavData.swift */; };
-		13EB8CFB1CC7C5A60041714F /* NavDataFormatException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CEC1CC7C5A60041714F /* NavDataFormatException.swift */; };
-		13EB8CFC1CC7C5A60041714F /* NavDataTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CED1CC7C5A60041714F /* NavDataTag.swift */; };
-		13EB8CFD1CC7C5A60041714F /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CEE1CC7C5A60041714F /* OutSocket.swift */; };
-		13EB8CFE1CC7C5A60041714F /* PCMDCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CEF1CC7C5A60041714F /* PCMDCommand.swift */; };
-		13EB8CFF1CC7C5A60041714F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CF01CC7C5A60041714F /* Point.swift */; };
-		13EB8D001CC7C5A60041714F /* TakeOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CF11CC7C5A60041714F /* TakeOffCommand.swift */; };
-		13EB8D011CC7C5A60041714F /* TrimCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CF21CC7C5A60041714F /* TrimCommand.swift */; };
-		13EB8D021CC7C5A60041714F /* VisionTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8CF31CC7C5A60041714F /* VisionTag.swift */; };
+		13EB8D201CC7CDFE0041714F /* ARDroneNavDataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D091CC7CDFE0041714F /* ARDroneNavDataDecoder.swift */; };
+		13EB8D211CC7CDFE0041714F /* ATCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0A1CC7CDFE0041714F /* ATCommand.swift */; };
+		13EB8D221CC7CDFE0041714F /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0B1CC7CDFE0041714F /* CommandQueue.swift */; };
+		13EB8D231CC7CDFE0041714F /* ConfigCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0C1CC7CDFE0041714F /* ConfigCommand.swift */; };
+		13EB8D241CC7CDFE0041714F /* ControlAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0D1CC7CDFE0041714F /* ControlAlgorithm.swift */; };
+		13EB8D251CC7CDFE0041714F /* CtrlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0E1CC7CDFE0041714F /* CtrlState.swift */; };
+		13EB8D261CC7CDFE0041714F /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D0F1CC7CDFE0041714F /* DataDecoder.swift */; };
+		13EB8D271CC7CDFE0041714F /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D101CC7CDFE0041714F /* Dimension.swift */; };
+		13EB8D281CC7CDFE0041714F /* EmergencyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D111CC7CDFE0041714F /* EmergencyCommand.swift */; };
+		13EB8D291CC7CDFE0041714F /* FlyingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D121CC7CDFE0041714F /* FlyingState.swift */; };
+		13EB8D2A1CC7CDFE0041714F /* InSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D131CC7CDFE0041714F /* InSocket.swift */; };
+		13EB8D2B1CC7CDFE0041714F /* LandCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D141CC7CDFE0041714F /* LandCommand.swift */; };
+		13EB8D2C1CC7CDFE0041714F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D151CC7CDFE0041714F /* Mode.swift */; };
+		13EB8D2D1CC7CDFE0041714F /* NavData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D161CC7CDFE0041714F /* NavData.swift */; };
+		13EB8D2E1CC7CDFE0041714F /* NavDataFormatException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D171CC7CDFE0041714F /* NavDataFormatException.swift */; };
+		13EB8D2F1CC7CDFE0041714F /* NavDataTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D181CC7CDFE0041714F /* NavDataTag.swift */; };
+		13EB8D301CC7CDFE0041714F /* OutSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D191CC7CDFE0041714F /* OutSocket.swift */; };
+		13EB8D311CC7CDFE0041714F /* PCMDCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D1A1CC7CDFE0041714F /* PCMDCommand.swift */; };
+		13EB8D321CC7CDFE0041714F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D1B1CC7CDFE0041714F /* Point.swift */; };
+		13EB8D331CC7CDFE0041714F /* TakeOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D1C1CC7CDFE0041714F /* TakeOffCommand.swift */; };
+		13EB8D341CC7CDFE0041714F /* TrimCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D1D1CC7CDFE0041714F /* TrimCommand.swift */; };
+		13EB8D351CC7CDFE0041714F /* VisionTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D1E1CC7CDFE0041714F /* VisionTag.swift */; };
+		13EB8D371CC7CE840041714F /* ARDrone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EB8D361CC7CE840041714F /* ARDrone.swift */; };
 		3A9640D59723C98151274C89 /* Pods_ARDroneAPIFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE4B1CEC2320BB3F5DC57C0 /* Pods_ARDroneAPIFrameworkTests.framework */; };
 		EEE831F3C4AAB880AE91596B /* Pods_ARDroneAPIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */; };
 /* End PBXBuildFile section */
@@ -54,29 +54,29 @@
 		1308F43A1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDroneAPIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1308F43F1CAB329000B5C5C1 /* ARDroneAPIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDroneAPIFrameworkTests.swift; sourceTree = "<group>"; };
 		1308F4411CAB329000B5C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13EB8CD51CC7C5680041714F /* ARDrone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARDrone.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/ARDrone.swift"; sourceTree = "<group>"; };
-		13EB8CD61CC7C5680041714F /* ARDroneNavDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARDroneNavDataDecoder.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/ARDroneNavDataDecoder.swift"; sourceTree = "<group>"; };
-		13EB8CD71CC7C5680041714F /* ATCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ATCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/ATCommand.swift"; sourceTree = "<group>"; };
-		13EB8CD81CC7C5680041714F /* CommandQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandQueue.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/CommandQueue.swift"; sourceTree = "<group>"; };
-		13EB8CD91CC7C5680041714F /* ConfigCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/ConfigCommand.swift"; sourceTree = "<group>"; };
-		13EB8CDA1CC7C5680041714F /* ControlAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControlAlgorithm.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/ControlAlgorithm.swift"; sourceTree = "<group>"; };
-		13EB8CDB1CC7C5680041714F /* CtrlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CtrlState.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/CtrlState.swift"; sourceTree = "<group>"; };
-		13EB8CDC1CC7C5680041714F /* DataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataDecoder.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/DataDecoder.swift"; sourceTree = "<group>"; };
-		13EB8CE51CC7C5A60041714F /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/Dimension.swift"; sourceTree = "<group>"; };
-		13EB8CE61CC7C5A60041714F /* EmergencyCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmergencyCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/EmergencyCommand.swift"; sourceTree = "<group>"; };
-		13EB8CE71CC7C5A60041714F /* FlyingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlyingState.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/FlyingState.swift"; sourceTree = "<group>"; };
-		13EB8CE81CC7C5A60041714F /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InSocket.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/InSocket.swift"; sourceTree = "<group>"; };
-		13EB8CE91CC7C5A60041714F /* LandCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/LandCommand.swift"; sourceTree = "<group>"; };
-		13EB8CEA1CC7C5A60041714F /* Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mode.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/Mode.swift"; sourceTree = "<group>"; };
-		13EB8CEB1CC7C5A60041714F /* NavData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavData.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/NavData.swift"; sourceTree = "<group>"; };
-		13EB8CEC1CC7C5A60041714F /* NavDataFormatException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavDataFormatException.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/NavDataFormatException.swift"; sourceTree = "<group>"; };
-		13EB8CED1CC7C5A60041714F /* NavDataTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavDataTag.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/NavDataTag.swift"; sourceTree = "<group>"; };
-		13EB8CEE1CC7C5A60041714F /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OutSocket.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/OutSocket.swift"; sourceTree = "<group>"; };
-		13EB8CEF1CC7C5A60041714F /* PCMDCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PCMDCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/PCMDCommand.swift"; sourceTree = "<group>"; };
-		13EB8CF01CC7C5A60041714F /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Point.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/Point.swift"; sourceTree = "<group>"; };
-		13EB8CF11CC7C5A60041714F /* TakeOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TakeOffCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/TakeOffCommand.swift"; sourceTree = "<group>"; };
-		13EB8CF21CC7C5A60041714F /* TrimCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrimCommand.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/TrimCommand.swift"; sourceTree = "<group>"; };
-		13EB8CF31CC7C5A60041714F /* VisionTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisionTag.swift; path = "../../../ArDroneAPI-master/ARDroneAPI/ARDroneAPI/VisionTag.swift"; sourceTree = "<group>"; };
+		13EB8D091CC7CDFE0041714F /* ARDroneNavDataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDroneNavDataDecoder.swift; sourceTree = "<group>"; };
+		13EB8D0A1CC7CDFE0041714F /* ATCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCommand.swift; sourceTree = "<group>"; };
+		13EB8D0B1CC7CDFE0041714F /* CommandQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
+		13EB8D0C1CC7CDFE0041714F /* ConfigCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigCommand.swift; sourceTree = "<group>"; };
+		13EB8D0D1CC7CDFE0041714F /* ControlAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlAlgorithm.swift; sourceTree = "<group>"; };
+		13EB8D0E1CC7CDFE0041714F /* CtrlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CtrlState.swift; sourceTree = "<group>"; };
+		13EB8D0F1CC7CDFE0041714F /* DataDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDecoder.swift; sourceTree = "<group>"; };
+		13EB8D101CC7CDFE0041714F /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		13EB8D111CC7CDFE0041714F /* EmergencyCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyCommand.swift; sourceTree = "<group>"; };
+		13EB8D121CC7CDFE0041714F /* FlyingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingState.swift; sourceTree = "<group>"; };
+		13EB8D131CC7CDFE0041714F /* InSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSocket.swift; sourceTree = "<group>"; };
+		13EB8D141CC7CDFE0041714F /* LandCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandCommand.swift; sourceTree = "<group>"; };
+		13EB8D151CC7CDFE0041714F /* Mode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		13EB8D161CC7CDFE0041714F /* NavData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavData.swift; sourceTree = "<group>"; };
+		13EB8D171CC7CDFE0041714F /* NavDataFormatException.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavDataFormatException.swift; sourceTree = "<group>"; };
+		13EB8D181CC7CDFE0041714F /* NavDataTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavDataTag.swift; sourceTree = "<group>"; };
+		13EB8D191CC7CDFE0041714F /* OutSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutSocket.swift; sourceTree = "<group>"; };
+		13EB8D1A1CC7CDFE0041714F /* PCMDCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCMDCommand.swift; sourceTree = "<group>"; };
+		13EB8D1B1CC7CDFE0041714F /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		13EB8D1C1CC7CDFE0041714F /* TakeOffCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOffCommand.swift; sourceTree = "<group>"; };
+		13EB8D1D1CC7CDFE0041714F /* TrimCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimCommand.swift; sourceTree = "<group>"; };
+		13EB8D1E1CC7CDFE0041714F /* VisionTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionTag.swift; sourceTree = "<group>"; };
+		13EB8D361CC7CE840041714F /* ARDrone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDrone.swift; sourceTree = "<group>"; };
 		33A598C6B6620A19BC1478CD /* Pods_ARDroneAPIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDroneAPIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4660530AF633ED3F2D39F4C3 /* Pods-ARDroneAPIFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFramework/Pods-ARDroneAPIFramework.release.xcconfig"; sourceTree = "<group>"; };
 		5EB8CFCD75AF2A0F8285914B /* Pods-ARDroneAPIFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDroneAPIFrameworkTests/Pods-ARDroneAPIFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,9 +131,10 @@
 			children = (
 				1308F4331CAB329000B5C5C1 /* ARDroneAPIFramework.h */,
 				1308F4351CAB329000B5C5C1 /* Info.plist */,
-				13EB8CD51CC7C5680041714F /* ARDrone.swift */,
-				13EB8CE81CC7C5A60041714F /* InSocket.swift */,
-				13EB8CEE1CC7C5A60041714F /* OutSocket.swift */,
+				13EB8D361CC7CE840041714F /* ARDrone.swift */,
+				13EB8D0B1CC7CDFE0041714F /* CommandQueue.swift */,
+				13EB8D131CC7CDFE0041714F /* InSocket.swift */,
+				13EB8D191CC7CDFE0041714F /* OutSocket.swift */,
 				13EB8D051CC7C66C0041714F /* ATCommand */,
 				13EB8D041CC7C62E0041714F /* NavData */,
 			);
@@ -152,18 +153,18 @@
 		13EB8D041CC7C62E0041714F /* NavData */ = {
 			isa = PBXGroup;
 			children = (
-				13EB8CD61CC7C5680041714F /* ARDroneNavDataDecoder.swift */,
-				13EB8CDA1CC7C5680041714F /* ControlAlgorithm.swift */,
-				13EB8CDB1CC7C5680041714F /* CtrlState.swift */,
-				13EB8CDC1CC7C5680041714F /* DataDecoder.swift */,
-				13EB8CE51CC7C5A60041714F /* Dimension.swift */,
-				13EB8CE71CC7C5A60041714F /* FlyingState.swift */,
-				13EB8CEA1CC7C5A60041714F /* Mode.swift */,
-				13EB8CEB1CC7C5A60041714F /* NavData.swift */,
-				13EB8CEC1CC7C5A60041714F /* NavDataFormatException.swift */,
-				13EB8CED1CC7C5A60041714F /* NavDataTag.swift */,
-				13EB8CF01CC7C5A60041714F /* Point.swift */,
-				13EB8CF31CC7C5A60041714F /* VisionTag.swift */,
+				13EB8D151CC7CDFE0041714F /* Mode.swift */,
+				13EB8D091CC7CDFE0041714F /* ARDroneNavDataDecoder.swift */,
+				13EB8D0E1CC7CDFE0041714F /* CtrlState.swift */,
+				13EB8D121CC7CDFE0041714F /* FlyingState.swift */,
+				13EB8D0D1CC7CDFE0041714F /* ControlAlgorithm.swift */,
+				13EB8D161CC7CDFE0041714F /* NavData.swift */,
+				13EB8D101CC7CDFE0041714F /* Dimension.swift */,
+				13EB8D181CC7CDFE0041714F /* NavDataTag.swift */,
+				13EB8D0F1CC7CDFE0041714F /* DataDecoder.swift */,
+				13EB8D171CC7CDFE0041714F /* NavDataFormatException.swift */,
+				13EB8D1E1CC7CDFE0041714F /* VisionTag.swift */,
+				13EB8D1B1CC7CDFE0041714F /* Point.swift */,
 			);
 			name = NavData;
 			sourceTree = "<group>";
@@ -171,14 +172,13 @@
 		13EB8D051CC7C66C0041714F /* ATCommand */ = {
 			isa = PBXGroup;
 			children = (
-				13EB8CD71CC7C5680041714F /* ATCommand.swift */,
-				13EB8CD81CC7C5680041714F /* CommandQueue.swift */,
-				13EB8CD91CC7C5680041714F /* ConfigCommand.swift */,
-				13EB8CE61CC7C5A60041714F /* EmergencyCommand.swift */,
-				13EB8CE91CC7C5A60041714F /* LandCommand.swift */,
-				13EB8CEF1CC7C5A60041714F /* PCMDCommand.swift */,
-				13EB8CF11CC7C5A60041714F /* TakeOffCommand.swift */,
-				13EB8CF21CC7C5A60041714F /* TrimCommand.swift */,
+				13EB8D141CC7CDFE0041714F /* LandCommand.swift */,
+				13EB8D111CC7CDFE0041714F /* EmergencyCommand.swift */,
+				13EB8D0C1CC7CDFE0041714F /* ConfigCommand.swift */,
+				13EB8D1D1CC7CDFE0041714F /* TrimCommand.swift */,
+				13EB8D1C1CC7CDFE0041714F /* TakeOffCommand.swift */,
+				13EB8D0A1CC7CDFE0041714F /* ATCommand.swift */,
+				13EB8D1A1CC7CDFE0041714F /* PCMDCommand.swift */,
 			);
 			name = ATCommand;
 			sourceTree = "<group>";
@@ -394,29 +394,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13EB8CE31CC7C5680041714F /* CtrlState.swift in Sources */,
-				13EB8CDE1CC7C5680041714F /* ARDroneNavDataDecoder.swift in Sources */,
-				13EB8CF41CC7C5A60041714F /* Dimension.swift in Sources */,
-				13EB8CFE1CC7C5A60041714F /* PCMDCommand.swift in Sources */,
-				13EB8CE11CC7C5680041714F /* ConfigCommand.swift in Sources */,
-				13EB8CF61CC7C5A60041714F /* FlyingState.swift in Sources */,
-				13EB8CE01CC7C5680041714F /* CommandQueue.swift in Sources */,
-				13EB8CF91CC7C5A60041714F /* Mode.swift in Sources */,
-				13EB8CFD1CC7C5A60041714F /* OutSocket.swift in Sources */,
-				13EB8CF51CC7C5A60041714F /* EmergencyCommand.swift in Sources */,
-				13EB8CE41CC7C5680041714F /* DataDecoder.swift in Sources */,
-				13EB8D021CC7C5A60041714F /* VisionTag.swift in Sources */,
-				13EB8CFA1CC7C5A60041714F /* NavData.swift in Sources */,
-				13EB8CDD1CC7C5680041714F /* ARDrone.swift in Sources */,
-				13EB8CF81CC7C5A60041714F /* LandCommand.swift in Sources */,
-				13EB8CFC1CC7C5A60041714F /* NavDataTag.swift in Sources */,
-				13EB8D011CC7C5A60041714F /* TrimCommand.swift in Sources */,
-				13EB8CF71CC7C5A60041714F /* InSocket.swift in Sources */,
-				13EB8CFF1CC7C5A60041714F /* Point.swift in Sources */,
-				13EB8CDF1CC7C5680041714F /* ATCommand.swift in Sources */,
-				13EB8CFB1CC7C5A60041714F /* NavDataFormatException.swift in Sources */,
-				13EB8CE21CC7C5680041714F /* ControlAlgorithm.swift in Sources */,
-				13EB8D001CC7C5A60041714F /* TakeOffCommand.swift in Sources */,
+				13EB8D291CC7CDFE0041714F /* FlyingState.swift in Sources */,
+				13EB8D321CC7CDFE0041714F /* Point.swift in Sources */,
+				13EB8D241CC7CDFE0041714F /* ControlAlgorithm.swift in Sources */,
+				13EB8D231CC7CDFE0041714F /* ConfigCommand.swift in Sources */,
+				13EB8D341CC7CDFE0041714F /* TrimCommand.swift in Sources */,
+				13EB8D261CC7CDFE0041714F /* DataDecoder.swift in Sources */,
+				13EB8D251CC7CDFE0041714F /* CtrlState.swift in Sources */,
+				13EB8D311CC7CDFE0041714F /* PCMDCommand.swift in Sources */,
+				13EB8D281CC7CDFE0041714F /* EmergencyCommand.swift in Sources */,
+				13EB8D271CC7CDFE0041714F /* Dimension.swift in Sources */,
+				13EB8D201CC7CDFE0041714F /* ARDroneNavDataDecoder.swift in Sources */,
+				13EB8D301CC7CDFE0041714F /* OutSocket.swift in Sources */,
+				13EB8D2A1CC7CDFE0041714F /* InSocket.swift in Sources */,
+				13EB8D221CC7CDFE0041714F /* CommandQueue.swift in Sources */,
+				13EB8D371CC7CE840041714F /* ARDrone.swift in Sources */,
+				13EB8D211CC7CDFE0041714F /* ATCommand.swift in Sources */,
+				13EB8D351CC7CDFE0041714F /* VisionTag.swift in Sources */,
+				13EB8D2F1CC7CDFE0041714F /* NavDataTag.swift in Sources */,
+				13EB8D331CC7CDFE0041714F /* TakeOffCommand.swift in Sources */,
+				13EB8D2B1CC7CDFE0041714F /* LandCommand.swift in Sources */,
+				13EB8D2E1CC7CDFE0041714F /* NavDataFormatException.swift in Sources */,
+				13EB8D2C1CC7CDFE0041714F /* Mode.swift in Sources */,
+				13EB8D2D1CC7CDFE0041714F /* NavData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
