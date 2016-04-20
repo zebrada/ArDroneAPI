@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ARDrone: NSObject {
+public class ARDrone: NSObject {
     
     var inSocket: InSocket!
     var outSocket: OutSocket!
     
-    override init() {
+    public override init() {
         inSocket = InSocket()
         outSocket = OutSocket()
     }
     
     /* Not tested yet */
-    func sendTakeOff() {
+    public func sendTakeOff() {
         var sequenceNumber: Int = 1
         let takeOffValue: UInt32 = 290718208
         /* Repeated until navdata shows the drone took off */
@@ -31,7 +31,7 @@ class ARDrone: NSObject {
     }
     
     /* Not tested yet */
-    func sendLanding() {
+    public func sendLanding() {
         var sequenceNumber: Int = 1
         let landingValue: UInt32 = 290717696
         /* Repeated until navdata shows the drone landed */
@@ -43,7 +43,7 @@ class ARDrone: NSObject {
     }
     
     /* Not tested yet */
-    func sendEmergencyStop() {
+    public func sendEmergencyStop() {
         var sequenceNumber: Int = 1
         let emergencyValue: UInt32 = 290717952
         /* Repeated until navdata shows the drone landed */

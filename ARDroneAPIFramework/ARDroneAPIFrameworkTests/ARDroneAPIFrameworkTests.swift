@@ -13,7 +13,7 @@ import CocoaAsyncSocket
 
 class ARDroneAPIFrameworkTests: XCTestCase {
     
-    var outSocket : OutSocket!
+    var drone = ARDrone()
     
     override func setUp() {
         super.setUp()
@@ -26,7 +26,6 @@ class ARDroneAPIFrameworkTests: XCTestCase {
     }
     
     func testExample() {
-        outSocket = OutSocket()
         
     }
     
